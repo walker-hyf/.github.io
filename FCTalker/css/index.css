@@ -24,10 +24,10 @@ html{
 	z-index: 1;
 	margin-bottom: 2rem;
 	overflow: hidden;
+	justify-content: center;
 }
 .title>span{
 	position: absolute;
-	left: 10%;
 	width: 80%;
 	z-index: 2;
 	color: white;

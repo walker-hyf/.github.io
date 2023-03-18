@@ -121,7 +121,7 @@ a{
 
 table th, table td {
     border: 1px solid #e9ebec;
-	padding: 1em 2em;
+	padding: 1em 1em;
 }
 tr {
     display: table-row;

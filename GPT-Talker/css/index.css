@@ -25,8 +25,6 @@ html{
 	margin-bottom: 2rem;
 	overflow: hidden;
 	justify-content: center;
-	background-color: #159957;
-	background-image: linear-gradient(60deg, #155799, #159957);
 }
 .title>span{
 	position: absolute;
@@ -52,6 +50,7 @@ a{
 .author span{
 	display: block;
 	width: 100%;
+	background-color: aliceblue;
 	/* font-weight: lighter; */
 	line-height: 2em;
 }
@@ -61,7 +60,7 @@ a{
 	min-height: 2rem;
 }
 .dialogue-wav{
-	width: 12rem;
+	width: 10rem;
 }
 .section{
 	width: 100%;
@@ -73,7 +72,7 @@ a{
 	min-height: 3rem;
 	line-height: 3rem;
 	font-size: 20px;
-	color: #159957;
+	color: #1D5DA4;
 	padding-left: 4rem;
 	font-weight: bold;
 }
@@ -86,20 +85,12 @@ a{
 	text-align: justify;
 }
 
-.subsection-content{
-	width: 100%;
-	margin: 2rem auto;
-	min-height: 3rem;
-	border-radius: 5px;
-	text-align: justify;
-}
-
 table img{
 	height: 6rem;
 }
 
 .abstract,.experiments{
-	background-color: ghostwhite;
+	background-color: aliceblue;
 	padding: 2rem 2rem;
 }
 
@@ -110,7 +101,7 @@ table img{
 	line-height: 2rem;
 	font-weight: bold;
 	margin: 2rem auto;
-	color: #159957;
+	color: #1D5DA4;
 }
 .module-title{
 	width: 100%;
@@ -120,7 +111,7 @@ table img{
 	padding-left: 1rem;
 	margin: 2rem 0rem;
 	/* font-weight: bold; */
-	color: #159957;
+	color: #1D5DA4;
 }
 .module-content{
 	width: 100%;
@@ -150,7 +141,7 @@ tr {
     border-color: inherit;
 }
 th{
-	background-color: gainsboro;
+	background-color: #F0F8FF;
 	height: 3em;
 }
 
@@ -177,5 +168,6 @@ audio{
 	margin-bottom: 2rem;
 	padding-left: 2rem;
 	line-height: 2rem;
+	background-color: aliceblue;
 	border-radius: 5px;
 }
